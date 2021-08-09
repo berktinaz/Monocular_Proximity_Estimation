@@ -1,0 +1,19 @@
+--data_path /
+--gt_path /
+--filenames_file /data/btinaz/mono_depth/custom_dataset_test.txt
+--input_height 480
+--input_width 640
+--max_depth 6
+--min_depth 5e-1
+
+--checkpoint_path /data/btinaz/mono_depth/AdaBins/checkpoints/TrainScratch_30-Jul_12-46-nodebs12-tep25-lr0.001-wd0.1-4e164701-08dd-4ec9-a4b8-dc5b43d07ce7_best.pt
+--data_path_eval /
+--gt_path_eval /
+--filenames_file_eval /data/btinaz/mono_depth/custom_dataset_test.txt
+--min_depth_eval 5e-1
+--max_depth_eval 6
+--eigen_crop
+--dataset nyu
+--save_dir predictions_nyu_scratch_bs12_lr0.001
+
+

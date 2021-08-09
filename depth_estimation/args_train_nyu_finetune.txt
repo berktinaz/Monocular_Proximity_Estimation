@@ -1,0 +1,31 @@
+--bs 12
+--distributed
+--dataset nyu
+--lr 0.0005
+--wd 0.1
+--div_factor 25
+--final_div_factor 100
+--epochs 5
+--workers 11
+--name TrainScratch
+--n_bins 256
+--norm linear
+--w_chamfer 0.1
+--root .
+--data_path /
+--gt_path /
+--filenames_file /data/btinaz/mono_depth/custom_dataset_train.txt
+--input_height 416
+--input_width 544
+--min_depth 5e-1
+--max_depth 6
+--do_random_rotate
+--degree 2.5
+--validate_every 500
+--data_path_eval /
+--gt_path_eval /
+--filenames_file_eval /data/btinaz/mono_depth/custom_dataset_test.txt
+--min_depth_eval 5e-1
+--max_depth_eval 6
+--resume true
+--eigen_crop
